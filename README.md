@@ -69,58 +69,31 @@ quadrantChart
 ```
 ```mermaid
 gitGraph
-
    commit id: "Инициализация"
-
    commit id: "Добавление структуры проекта"
-
    branch feature/authorization
-
    checkout feature/authorization
-
    commit id: "Реализована регистрация"
-
    commit id: "Реализована авторизация"
-
    checkout main
-
    merge feature/authorization
-
    branch feature/mero
-
    checkout feature/mero
-
    commit id: "Добавлен поиск мероприятий"
-
    commit id: "Реализованы фильтры"
-
    checkout main
-
    merge feature/mero
-
    branch feature/notifications
-
    commit id: "Добавлена возможность установки напоминаний"
-
    checkout feature/notifications
-
    commit id: "Добавлены уведомления по времени"
-
    checkout main
-
    merge feature/notifications
-
    branch hotfix/fix_issues
-
    checkout hotfix/fix_issues
-
-      commit id: "Исправлен баг с поиском"
-
+   commit id: "Исправлен баг с поиском"
    commit id: "Исправлены баги с фильтрами"
-
    checkout main
-
    merge hotfix/fix_issues
-
    commit id: "Релиз первой версии"
 ```
